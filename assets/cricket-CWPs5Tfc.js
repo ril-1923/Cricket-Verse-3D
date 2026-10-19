@@ -1,0 +1,1 @@
+const i=t=>Math.round(t.role==="Batter"?t.batting*.7+t.fielding*.2+t.bowling*.1:t.role==="Bowler"?t.bowling*.7+t.fielding*.2+t.batting*.1:t.role==="Wicketkeeper"?t.batting*.5+t.fielding*.5:t.batting*.45+t.bowling*.45+t.fielding*.1),e={quick:2,short:6,t10:10,t20:20};export{e as F,i as o};
